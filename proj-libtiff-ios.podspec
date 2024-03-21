@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'proj-libtff-ios'
+  s.name             = 'proj-libtiff-ios'
   s.version          = '1.0.0'
   s.license          =  {:type => 'MIT', :file => 'LICENSE' }
   s.summary          = 'PROJ-LibTIFF iOS'
