@@ -17,7 +17,7 @@
 		04C393C422DD200F0049F6C0 /* (null) in Resources */ = {isa = PBXBuildFile; };
 		04F45614209A47C800FC299E /* (null) in Resources */ = {isa = PBXBuildFile; };
 		04F45621209A47C800FC299E /* (null) in Resources */ = {isa = PBXBuildFile; };
-		6333960F6C01EA70C82AF375 /* libPods-proj-libtiff-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E44DF951A02E0271328E752 /* libPods-proj-libtiff-ios.a */; };
+		0D808E39A0117D7FCF250161 /* libPods-proj-libtiff-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E781BF7A5B609B56456BB286 /* libPods-proj-libtiff-ios.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,9 +29,9 @@
 		0493A5952AE8420F000B75E6 /* proj_libtiff_ios.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proj_libtiff_ios.swift; sourceTree = "<group>"; };
 		04974DA22A49D8D200CEEC2A /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/lib/libsqlite3.tbd; sourceTree = DEVELOPER_DIR; };
 		04974DA42A49D93900CEEC2A /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/lib/libc++.tbd"; sourceTree = DEVELOPER_DIR; };
-		5E44DF951A02E0271328E752 /* libPods-proj-libtiff-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-proj-libtiff-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		70CE399C45EAE3488C64D348 /* Pods-proj-libtiff-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-proj-libtiff-ios.debug.xcconfig"; path = "Target Support Files/Pods-proj-libtiff-ios/Pods-proj-libtiff-ios.debug.xcconfig"; sourceTree = "<group>"; };
-		B58C7C7415012B3584AA9765 /* Pods-proj-libtiff-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-proj-libtiff-ios.release.xcconfig"; path = "Target Support Files/Pods-proj-libtiff-ios/Pods-proj-libtiff-ios.release.xcconfig"; sourceTree = "<group>"; };
+		BA4559502F6110FE3F2AD805 /* Pods-proj-libtiff-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-proj-libtiff-ios.release.xcconfig"; path = "Target Support Files/Pods-proj-libtiff-ios/Pods-proj-libtiff-ios.release.xcconfig"; sourceTree = "<group>"; };
+		E781BF7A5B609B56456BB286 /* libPods-proj-libtiff-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-proj-libtiff-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC8C9C749F89670236802408 /* Pods-proj-libtiff-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-proj-libtiff-ios.debug.xcconfig"; path = "Target Support Files/Pods-proj-libtiff-ios/Pods-proj-libtiff-ios.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +41,7 @@
 			files = (
 				04974DA52A49D93900CEEC2A /* libc++.tbd in Frameworks */,
 				04974DA32A49D8D200CEEC2A /* libsqlite3.tbd in Frameworks */,
-				6333960F6C01EA70C82AF375 /* libPods-proj-libtiff-ios.a in Frameworks */,
+				0D808E39A0117D7FCF250161 /* libPods-proj-libtiff-ios.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,7 +91,7 @@
 			children = (
 				04974DA42A49D93900CEEC2A /* libc++.tbd */,
 				04974DA22A49D8D200CEEC2A /* libsqlite3.tbd */,
-				5E44DF951A02E0271328E752 /* libPods-proj-libtiff-ios.a */,
+				E781BF7A5B609B56456BB286 /* libPods-proj-libtiff-ios.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -99,8 +99,8 @@
 		D0B73357D798132428118724 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				70CE399C45EAE3488C64D348 /* Pods-proj-libtiff-ios.debug.xcconfig */,
-				B58C7C7415012B3584AA9765 /* Pods-proj-libtiff-ios.release.xcconfig */,
+				EC8C9C749F89670236802408 /* Pods-proj-libtiff-ios.debug.xcconfig */,
+				BA4559502F6110FE3F2AD805 /* Pods-proj-libtiff-ios.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -126,12 +126,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 042FC6611B963FE500549A4B /* Build configuration list for PBXNativeTarget "proj-libtiff-ios" */;
 			buildPhases = (
-				474B5E222F8DE6E24473F97A /* [CP] Check Pods Manifest.lock */,
+				D710492656639D99C868F04F /* [CP] Check Pods Manifest.lock */,
 				042FC6461B963FE500549A4B /* Sources */,
 				042FC6471B963FE500549A4B /* Frameworks */,
 				042FC6481B963FE500549A4B /* Headers */,
 				042FC6491B963FE500549A4B /* Resources */,
-				25208942CE797552F4257568 /* [CP] Copy Pods Resources */,
+				13550E7E591FAE36DAACD816 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -190,7 +190,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		25208942CE797552F4257568 /* [CP] Copy Pods Resources */ = {
+		13550E7E591FAE36DAACD816 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -208,7 +208,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-proj-libtiff-ios/Pods-proj-libtiff-ios-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		474B5E222F8DE6E24473F97A /* [CP] Check Pods Manifest.lock */ = {
+		D710492656639D99C868F04F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -366,7 +366,7 @@
 		};
 		042FC6621B963FE500549A4B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 70CE399C45EAE3488C64D348 /* Pods-proj-libtiff-ios.debug.xcconfig */;
+			baseConfigurationReference = EC8C9C749F89670236802408 /* Pods-proj-libtiff-ios.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -376,6 +376,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				"EXCLUDED_ARCHS[sdk=*]" = "";
 				INFOPLIST_FILE = "proj-libtiff-ios/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -394,7 +395,7 @@
 		};
 		042FC6631B963FE500549A4B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B58C7C7415012B3584AA9765 /* Pods-proj-libtiff-ios.release.xcconfig */;
+			baseConfigurationReference = BA4559502F6110FE3F2AD805 /* Pods-proj-libtiff-ios.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -404,6 +405,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EXCLUDED_ARCHS = "";
 				INFOPLIST_FILE = "proj-libtiff-ios/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
