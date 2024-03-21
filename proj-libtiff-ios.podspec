@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.source_files = 'proj-libtiff-ios/**/*.{h,m}'
 
   s.exclude_files = 'proj-libtiff-ios/**/Info.plist'
-  s.resource_bundle = { 'proj-libtiff-ios' => ['proj-libtiff-ios/*.plist'] }
+  s.resource_bundle = { 'proj-libtiff-ios' => ['proj-libtiff-ios/**/*.plist'] }
   s.frameworks = 'Foundation'
 
   s.libraries = 'sqlite3', 'c++'
