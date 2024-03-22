@@ -3,20 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		042FC6AF1B96421E00549A4B /* BuildFile in Headers */ = {isa = PBXBuildFile; };
+		042FC6AF1B96421E00549A4B /* (null) in Headers */ = {isa = PBXBuildFile; };
 		042FC6D31B96421E00549A4B /* proj-libtiff-ios-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 042FC69E1B96421E00549A4B /* proj-libtiff-ios-Prefix.pch */; };
 		042FC6D51B96453E00549A4B /* proj_libtiff_ios.h in Headers */ = {isa = PBXBuildFile; fileRef = 042FC6D41B96453E00549A4B /* proj_libtiff_ios.h */; };
 		0472B51B1C03590500496B87 /* proj-libtiff-ios-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 0472B51A1C03590500496B87 /* proj-libtiff-ios-Bridging-Header.h */; };
 		0493A5962AE8420F000B75E6 /* proj_libtiff_ios.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0493A5952AE8420F000B75E6 /* proj_libtiff_ios.swift */; };
 		04974DA32A49D8D200CEEC2A /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 04974DA22A49D8D200CEEC2A /* libsqlite3.tbd */; };
 		04974DA52A49D93900CEEC2A /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 04974DA42A49D93900CEEC2A /* libc++.tbd */; };
-		04C393C422DD200F0049F6C0 /* BuildFile in Resources */ = {isa = PBXBuildFile; };
-		04F45614209A47C800FC299E /* BuildFile in Resources */ = {isa = PBXBuildFile; };
-		04F45621209A47C800FC299E /* BuildFile in Resources */ = {isa = PBXBuildFile; };
+		04C393C422DD200F0049F6C0 /* (null) in Resources */ = {isa = PBXBuildFile; };
+		04F45614209A47C800FC299E /* (null) in Resources */ = {isa = PBXBuildFile; };
+		04F45621209A47C800FC299E /* (null) in Resources */ = {isa = PBXBuildFile; };
 		0C9EAF7DB64F36256CCE8848 /* libPods-proj-libtiff-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11047A731D5C1C506AA65DB6 /* libPods-proj-libtiff-ios.a */; };
 /* End PBXBuildFile section */
 
@@ -113,7 +113,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0472B51B1C03590500496B87 /* proj-libtiff-ios-Bridging-Header.h in Headers */,
-				042FC6AF1B96421E00549A4B /* BuildFile in Headers */,
+				042FC6AF1B96421E00549A4B /* (null) in Headers */,
 				042FC6D51B96453E00549A4B /* proj_libtiff_ios.h in Headers */,
 				042FC6D31B96421E00549A4B /* proj-libtiff-ios-Prefix.pch in Headers */,
 			);
@@ -148,7 +148,8 @@
 		042FC6421B963FE500549A4B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1230;
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
 				ORGANIZATIONNAME = NGA;
 				TargetAttributes = {
 					042FC64A1B963FE500549A4B = {
@@ -181,9 +182,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04F45621209A47C800FC299E /* BuildFile in Resources */,
-				04C393C422DD200F0049F6C0 /* BuildFile in Resources */,
-				04F45614209A47C800FC299E /* BuildFile in Resources */,
+				04F45621209A47C800FC299E /* (null) in Resources */,
+				04C393C422DD200F0049F6C0 /* (null) in Resources */,
+				04F45614209A47C800FC299E /* (null) in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,7 +193,7 @@
 /* Begin PBXShellScriptBuildPhase section */
 		641A0291A9E4FD9D531EE3A4 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			files = (
 			);
 			inputPaths = (
@@ -203,7 +204,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PROJ.bundle",
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-proj-libtiff-ios/Pods-proj-libtiff-ios-resources.sh\"\n";
 			showEnvVarsInLog = 0;
@@ -279,6 +280,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -342,6 +344,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -369,21 +372,27 @@
 			baseConfigurationReference = 3BDE925023CC86938CA1F7A7 /* Pods-proj-libtiff-ios.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 4BT85TLX5C;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				"EXCLUDED_ARCHS[sdk=*]" = "";
 				INFOPLIST_FILE = "proj-libtiff-ios/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Assets/",
 				);
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu99 gnu++11";
 				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexbejann;
 				PRODUCT_NAME = proj_libtiff_ios;
@@ -398,21 +407,27 @@
 			baseConfigurationReference = 1A82018660FF021BE73C5F8E /* Pods-proj-libtiff-ios.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 4BT85TLX5C;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				EXCLUDED_ARCHS = "";
 				INFOPLIST_FILE = "proj-libtiff-ios/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/libtiff/lib",
 				);
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu99 gnu++11";
 				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexbejann;
 				PRODUCT_NAME = proj_libtiff_ios;

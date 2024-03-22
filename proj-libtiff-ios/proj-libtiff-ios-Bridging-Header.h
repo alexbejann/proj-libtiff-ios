@@ -9,7 +9,5 @@
 #ifndef proj_libtiff_ios_Bridging_Header_h
 #define proj_libtiff_ios_Bridging_Header_h
 
-#import "proj_ios.h"
-
 
 #endif /* proj_libtiff_ios_Bridging_Header_h */

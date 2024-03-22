@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'proj-libtiff-ios'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.license          =  {:type => 'MIT', :file => 'LICENSE' }
   s.summary          = 'PROJ-LibTIFF iOS'
   s.homepage         = 'https://github.com/alexbejann/proj-libtiff-ios'
@@ -19,6 +19,6 @@ Pod::Spec.new do |s|
 
   s.libraries = 'sqlite3', 'c++'
 
-  s.dependency 'PROJ-LibTIFF', '~> 9.3.1'
+  s.dependency 'PROJ-LibTIFF', '~> 9.3.1.1'
 
 end
